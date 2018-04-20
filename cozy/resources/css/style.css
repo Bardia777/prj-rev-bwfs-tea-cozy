@@ -1,0 +1,124 @@
+/*Header section*/
+.logo{
+  padding-left: 10px;
+}
+.logo img{
+  height:50px;
+}
+html{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header{
+  display: flex;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  top: 0px;
+  align-items: center;
+  background-color: black;
+}
+
+  a{
+  text-decoration: underline;
+  color: white;
+}
+nav span{
+  display: inline-block;
+  padding: 20px 5px;
+}
+header nav{
+  padding-left: 850px;
+}
+ /*Part1 section*/
+
+.part1{
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  margin:0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+
+}
+ .mission{
+  background-color: black;
+  margin:auto;
+  width: 1200px;
+  text-align:center;
+}
+/*part2 section*/
+
+div .images img{
+  width:300px;
+  height:200px;
+}
+.part2{
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
+}
+div .images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.images p{
+  padding-bottom: 15px;
+}
+/*Part3*/
+.Part3{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width:1200px;
+  margin-left: 60px;
+}
+.items .downtown{
+  background-color: black;
+  margin-left: 20px;
+  width: 300px;
+}
+.items .East{
+  background-color: black;
+  margin: 20px;
+  margin-right: 5px;
+  width: 300px;
+}
+.items .Okadale{
+  background-color: black;
+  margin: 20px;
+  width: 300px;
+}
+.items{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.Location h1{
+margin-left: 500px;
+}
+
+/*Part4*/
+.part4{
+  width: 800px;
+  height: 200px;
+display: inline-block;
+}
+.Thetea{
+  text-align: center;
+  margin-left: 500px;
+}
+.contact{
+  text-align: center;
+  margin-left: 500px;
+}
+.final{
+  margin-left: 20px;
+  text-align: left;
+}
